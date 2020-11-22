@@ -14,7 +14,7 @@ with open('Raw Data/US-States1.json') as json_file:
 state_data = data["features"] 
   
 # now we will open a file for writing 
-data_file = open('Raw Data/state_geojson.csv', 'w') 
+data_file = open('Raw Data/state_geojson2.csv', 'w') 
   
 # create the csv writer object 
 csv_writer = csv.writer(data_file) 
