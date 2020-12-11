@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+  body,
+  html {
+    height: 100%;
+  }
+  #map {
+    width: 100%;
+    position: absolute;
+    height: 1009px;
+    margin:0;
+    padding:0; 
+    
+    }
+
+  /* Set Legend Style */
+  .info {
+    padding: 1px 10px;
+    background: #E5E7E9;
+    border-radius: 5px;
+  }
+  
+  .legend {
+    font-size: 12px;
+    height: 125px;
+    /* top:97px;
+    left:36px; */
+  }
+  rect {                                                      
+    stroke-width: 2;
+                                           
+  } 
+
+  .arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+  }
+  
+  .arc path {
+    stroke: #fff;
+  }
+  .title {
+    fill:grey;
+    font-weight: bold;
+    font:25px sans-serif;
+}
+  .demographic{
+    padding: 10px 42px;
+}
+  .covid{
+    padding :0px 109px;
+}
+  #charttitle{
+        font-weight: bold;
+}
+  #graphic{
+        margin-top: -20px;
+}
+  p{
+    margin-bottom: 0px;
+
+
+}
