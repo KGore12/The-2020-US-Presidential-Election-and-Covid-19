@@ -66,6 +66,7 @@ Distribution of tasks
 10.	PowerPoint - Kim with assistance from Roshini and Evan
 11. ReadMe - Kim with screenshots from Roshini
 12.	Set up web server - 
+
 Regularly touched base via Slack to ensure project is on track.
 
 ## Contributors
