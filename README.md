@@ -2,7 +2,7 @@
 # The 2020 US Presidential Election and Covid-19
 
 LINK TO STATIC WEB SITE:
-https://
+https://rawgit.com/KGore12/Group_Project_2/blob/main/templates/index.html
 
 __NOTE__ This repository has not yet been deployed. 
 
