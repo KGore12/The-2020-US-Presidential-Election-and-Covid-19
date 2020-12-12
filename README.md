@@ -11,6 +11,8 @@ The data we are using comes from Politico via [Kaggle](https://www.kaggle.com/et
 
 Notes About the Data: Due to changes in data collection and reporting for both the 2020 presidential election and COVID-19, this is only a "snapshot" of the data sources up to November 1st, 2020 for COVID-19 data and November 10th, 2020 for the election data.
 
+![](https://github.com/KGore12/Group_Project_2/blob/main/Images/California.PNG)
+
 ## Data Cleanup
 The goal of the back-end is to find the data necessary to tell a story. On the other hand, the story of the back-end is fidgeting with .geojson files. Once Evan found our state.json file, using our csv-converter.py file we converted the .json file into a csv to merge it with the election/COVID data file. Once we had a merged dataframe, we then created a function to iterate over the dataframe and to call each column by row. Using the json.loads function, we made the geometry column holding all the features and type information into a dictionary. 
 
@@ -18,32 +20,31 @@ Once the .geojson was cleaned, we were able to copy this output into a geojsonli
 
 The biggest difficulty of this project was the .geojson file and its formatting. The file has to be formatted in a certain way so that there are no extra quotations anywhere within the geometries or features. This took some python manipulation and the previously mentioned json.loads function to make the geometry into a dictionary, not a string. We thought for a bit that splitting the geometry column into two columns so that we can convert the array of coordinates into a float would help, but Python did not like that because the column was a series not a string.
 
-#### Technique/Technology 
-Python/Pandas was used to initial cleaning and visualizing the data. Data was then converted to JSON and GeoJson files. ??SQL/PGAdmin?? was used to transform and load the data.
-For graphic analysis, D3 and Leaflet were used.
+## Technique/Technology 
+Python/Pandas was used to initial cleaning and visualizing the data. Data was then converted to JSON and GeoJson files. Tested data with a [GeoJSON Viewer & Validator](https://geojsonlint.com/)  ??SQL/PGAdmin?? was used to transform and load the data. Flask to access MongoDB databases????. For graphic analysis, D3 and Leaflet were used. Bootstrap for the HTML, CSS, and JavaScript Framework for web application. 
 
-## [CleanData](CleanData)
+#### [CleanData](CleanData)
 CSV and GeoJson files of data
 
-## [ERD](ERD)
+#### [ERD](ERD)
 QuickDBD-SQL files with a snapshot of the data structures.
 
-## [Images](Images)
+#### [Images](Images)
 Screenshots for presentation and ReadMe.
 
-## [Proposal](Proposal)
+#### [Proposal](Proposal)
 2020_Election_and COVID_proposal.docx
 
-## [Static](Static)
+#### [Static](Static)
 Flask files for deploying to web.
 
-## [Assets](assets)
+#### [Assets](assets)
 CSS and JS for leaflet maps, demographic charts, and Covid charts.
 
-## [Templates](templates)
+#### [Templates](templates)
 HTML, CSS, and images for for main webpages 
 
-## [Test](test)
+#### [Test](test)
 Jupyter Notebook files of cleaned data.
 
 
