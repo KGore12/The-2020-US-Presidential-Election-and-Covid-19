@@ -45,7 +45,7 @@ Flask files for accessing databases.
 CSS and JS for leaflet maps, demographic charts, and Covid charts.
 
 #### [Templates](templates)
-HTML, CSS, and images for for main webpages 
+HTML, CSS, and images for for main webpage  
 
 #### [Test](test)
 Jupyter Notebook files of cleaned data used for testing.
