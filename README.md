@@ -23,7 +23,7 @@ Once the .geojson was cleaned, we were able to copy this output into a geojsonli
 The biggest difficulty of this project was the .geojson file and its formatting. The file has to be formatted in a certain way so that there are no extra quotations anywhere within the geometries or features. This took some python manipulation and the previously mentioned json.loads function to make the geometry into a dictionary, not a string. We thought for a bit that splitting the geometry column into two columns so that we can convert the array of coordinates into a float would help, but Python did not like that because the column was a series not a string.
 
 ## Technique/Technology 
-Python/Pandas was used to initial cleaning and visualizing the data. Data was then converted to JSON and GeoJson files. Tested data with a [GeoJSON Viewer & Validator](https://geojsonlint.com/)  ??SQL/PGAdmin?? was used to transform and load the data. Flask to access MongoDB databases????. For graphic analysis, D3 and Leaflet were used. Bootstrap for the HTML, CSS, and JavaScript Framework for web application. 
+Python/Pandas was used to initial cleaning and visualizing the data. Data was then converted to JSON and GeoJson files. Tested data with a [GeoJSON Viewer & Validator](https://geojsonlint.com/) Flask was used to to access the MongoDB database holding the GeoJson file. For graphic analysis, D3 and Leaflet were used. Bootstrap for the HTML, CSS, and JavaScript Framework for web application. 
 
 
 #### [CleanData](CleanData)
@@ -55,7 +55,7 @@ Jupyter Notebook files of cleaned data used for testing.
 
 Distribution of tasks
 1.	Finding Data Source - Evan found the main source with support from the team.
-2.	Cleaning up the data - Evan and Brenda with assistance from Roshini.
+2.	Cleaning up the data - Evan and Brendan with assistance from Roshini.
 3.	Transforming the data - Brendan and Roshini
 4.	Loading and testing the data - Brendan and Roshini
 5.  ERD - Brendan
