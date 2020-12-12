@@ -18,6 +18,13 @@ Once the .geojson was cleaned, we were able to copy this output into a geojsonli
 
 The biggest difficulty of this project was the .geojson file and its formatting. The file has to be formatted in a certain way so that there are no extra quotations anywhere within the geometries or features. This took some python manipulation and the previously mentioned json.loads function to make the geometry into a dictionary, not a string. We thought for a bit that splitting the geometry column into two columns so that we can convert the array of coordinates into a float would help, but Python did not like that because the column was a series not a string.
 
+## Technique/Technology 
+Python/Pandas was used to initial cleaning and visualizing the data. Data was then converted to JSON and GeoJson files. ??SQL/PGAdmin?? was used to transform and load the data.
+For graphic analysis, D3 and Leaflet were used.
+
+## [Templates](templates)
+HTML, CSS, and images for for main webpages
+
 Distribution of tasks
 1.	Finding Data Source - Evan found the main source with support from the team.
 2.	Cleaning up the data - Evan and Brenda with assistance from Roshini.
