@@ -2,7 +2,6 @@
 # The 2020 US Presidential Election and Covid-19
 
 LINK TO STATIC WEB SITE:
-https://kgore12.github.io/Group_Project_2/index.html
 
 __NOTE__ This repository has not yet been deployed. 
 
