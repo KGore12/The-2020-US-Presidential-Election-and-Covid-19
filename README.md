@@ -6,12 +6,12 @@ https://
 
 __NOTE__ This repository has not yet been deployed. 
 
-##Background
+##[Background]
 The data we are using comes from Politico via [Kaggle](https://www.kaggle.com/etsc9287/2020-general-election-polls). In these current times, our team chose to focus on if there was a relationship between two major occurrences in 2020: an unprecedented presidential election and a worldwide pandemic. We were able to find a comprehensive dataset from Politico on [Kaggle](https://www.kaggle.com/etsc9287/2020-general-election-polls). Some of the major datapoints obtained were votes, demographic data, and Covid-19 numbers. We set out on a path to use data analytics to further visualize this data on these pages. Even though there is no definitive relationship, we can definitely see some trends with the data. 
 
 Notes About the Data: Due to changes in data collection and reporting for both the 2020 presidential election and COVID-19, this is only a "snapshot" of the data sources up to November 1st, 2020 for COVID-19 data and November 10th, 2020 for the election data.
 
-##Data Cleanup
+##[Data Cleanup]
 The goal of the back-end is to find the data necessary to tell a story. On the other hand, the story of the back-end is fidgeting with .geojson files. Once Evan found our state.json file, using our csv-converter.py file we converted the .json file into a csv to merge it with the election/COVID data file. Once we had a merged dataframe, we then created a function to iterate over the dataframe and to call each column by row. Using the json.loads function, we made the geometry column holding all the features and type information into a dictionary. 
 
 Once the .geojson was cleaned, we were able to copy this output into a geojsonlint to check if the geojson was in the correct format. Turns out, the coordinates were not correctly placed using the right-hand rule. Finally before uploading the final .geojson file to MongoDB, we placed the .geojson into a right-hand rule fixer and then the front end could use that in making their maps. 
