@@ -6,7 +6,7 @@ https://
 
 __NOTE__ This repository has not yet been deployed. 
 
-## Background
+### Background
 The data we are using comes from Politico via [Kaggle](https://www.kaggle.com/etsc9287/2020-general-election-polls). In these current times, our team chose to focus on if there was a relationship between two major occurrences in 2020: an unprecedented presidential election and a worldwide pandemic. We were able to find a comprehensive dataset from Politico on [Kaggle](https://www.kaggle.com/etsc9287/2020-general-election-polls). Some of the major datapoints obtained were votes, demographic data, and Covid-19 numbers. We set out on a path to use data analytics to further visualize this data on these pages. Even though there is no definitive relationship, we can definitely see some trends with the data. 
 
 Notes About the Data: Due to changes in data collection and reporting for both the 2020 presidential election and COVID-19, this is only a "snapshot" of the data sources up to November 1st, 2020 for COVID-19 data and November 10th, 2020 for the election data.
@@ -22,8 +22,32 @@ The biggest difficulty of this project was the .geojson file and its formatting.
 Python/Pandas was used to initial cleaning and visualizing the data. Data was then converted to JSON and GeoJson files. ??SQL/PGAdmin?? was used to transform and load the data.
 For graphic analysis, D3 and Leaflet were used.
 
+## [CleanData](CleanData)
+CSV and GeoJson files of data
+
+## [ERD](ERD)
+QuickDBD-SQL files with a snapshot of the data structures.
+
+## [Images](Images)
+Screenshots for presentation and ReadMe.
+
+## [Proposal](Proposal)
+2020_Election_and COVID_proposal.docx
+
+## [Static](Static)
+Flask files for deploying to web.
+
+## [Assets](assets)
+CSS and JS for leaflet maps, demographic charts, and Covid charts.
+
 ## [Templates](templates)
-HTML, CSS, and images for for main webpages
+HTML, CSS, and images for for main webpages 
+
+## [Test](test)
+Jupyter Notebook files of cleaned data.
+
+
+
 
 Distribution of tasks
 1.	Finding Data Source - Evan found the main source with support from the team.
