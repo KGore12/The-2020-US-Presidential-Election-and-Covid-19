@@ -48,7 +48,7 @@ CSS and JS for leaflet maps, demographic charts, and Covid charts.
 HTML, CSS, and images for for main webpages 
 
 #### [Test](test)
-Jupyter Notebook files of cleaned data.
+Jupyter Notebook files of cleaned data used for testing.
 
 
 
