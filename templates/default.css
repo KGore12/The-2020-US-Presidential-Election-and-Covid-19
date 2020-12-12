@@ -8,10 +8,9 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: #004D1A;
+	background: #088573;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
-	text-align:center;
+	font-size: 13px;
 	color: #4F4F4F;
 }
 
@@ -20,7 +19,7 @@ h1, h2, h3
 	margin: 0;
 	padding: 0;
 	font-family: 'Archivo Narrow', sans-serif;
-	color: #00802B;
+	color: #098A76;
 }
 
 p, ol, ul
@@ -46,7 +45,7 @@ strong
 
 a
 {
-	color: #00802B;
+	color: #088674;
 }
 
 a:hover
@@ -140,7 +139,7 @@ ul.style1 .first
 {
 	overflow: hidden;
 	height: 150px;
-	background: #004D1A;
+	background: #088573;
 	border-bottom: 1px solid #3B3B3A;
 }
 
@@ -155,11 +154,10 @@ ul.style1 .first
 {
 	position: relative;
 	float: left;
-	width: 600px;
-	height: 250px;
-	font-style:bold;
-	font-color:
+	width: 380px;
+	height: 100px;
 }
+
 #logo h1, #logo p
 {
 	margin: 0px;
@@ -172,14 +170,14 @@ ul.style1 .first
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 100%;
+	width: 300%;
 	height: 100%;
 	line-height: 150px;
 	color: #FFFFFF;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 1.50em;
+	font-weight: 550;
+	font-size: 1.25em;
 }
 
 /** MENU */
@@ -196,7 +194,7 @@ ul.style1 .first
 	float: right;
 	margin: 0px;
 	padding: 0px;
-	background: #00802B;
+	background: #0DA993;
 	list-style: none;
 	line-height: normal;
 }
@@ -212,7 +210,7 @@ ul.style1 .first
 	display: block;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 600;
 	font-family: 'Archivo Narrow', sans-serif;
 	font-size: 1.10em;
 	color: #FFFFFF;
@@ -225,7 +223,7 @@ ul.style1 .first
 
 #menu .active a
 {
-	color: #00802B;
+	color: #088674;
 }
 
 #menu .first
@@ -233,7 +231,7 @@ ul.style1 .first
 	background: #FFFFFF;
 	border-left: none;
 	box-shadow: none;
-	color: #00802B;
+	color: #088674;
 }
 
 /** PAGE */
@@ -251,7 +249,15 @@ ul.style1 .first
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 2em;
-	color: #00802B;
+	color: #098A76;
+}
+#page p
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #4F4F4F;
 }
 
 /** CONTENT */
@@ -259,32 +265,20 @@ ul.style1 .first
 #content
 {
 	float: left;
-	width: 650px;
+	width: 1000px;
 }
 
 #content h2
 {
-	padding: 10px 0px 20px 0px;
-	font-size: 2.50em;
+	padding: 5px 0px 5px 0px;
+	font-size: 3.0em;
+	font-weight: 600;
 }
 
 #content img
 {
 	float: left;
 	margin-right: 40px;
-}
-
-/** SIDEBAR */
-
-#sidebar
-{
-	float: right;
-	width: 300px;
-}
-
-#sidebar h2
-{
-	padding: 10px 0px 20px 0px;
 }
 
 /* Footer */
@@ -329,7 +323,7 @@ ul.style1 .first
 #slider .button
 {
 	display: inline-block;
-	background: #00802B;
+	background: #0074C6;
 	color: #ffffff;
 	text-align: center;
 	line-height: 50px;
@@ -338,19 +332,19 @@ ul.style1 .first
 	outline: 0;
 	border-radius: 8px;
 	font-size: 1.25em;
-	border-bottom: solid 2px #00802B;
-	text-shadow: 0 1px 1px #00802B;
+	border-bottom: solid 2px #0054A6;
+	text-shadow: 0 1px 1px #003A6C;
 }
 
 #slider .button:hover
 {
-	background: #00802B;
+	background: #2094E6;
 }
 
 #slider .viewer
 {
-	width: 1000px;
-	height: 500px;
+	width: 9000px;
+	height: 450px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -390,7 +384,7 @@ ul.style1 .first
 	left: 0;
 	display: block;
 	padding: 5px 35px;
-	background: #00802B;
+	background: #0074C6;
 	text-align: center;
 	opacity: 0.75;
 	font-family: 'Archivo Narrow', sans-serif;
@@ -401,7 +395,7 @@ ul.style1 .first
 
 #slider .indicator
 {
-	margin: 30px auto 0 auto;
+	margin: 15px auto 0 auto;
 }
 
 #slider .indicator ul
@@ -415,11 +409,11 @@ ul.style1 .first
 #slider .indicator ul li
 {
 	display: inline-block;
-	width: 12px;
-	height: 12px;
+	width: 14px;
+	height: 14px;
 	text-indent: -9999em;
 	background: #c8c8c8;
-	margin: 0 2px 0 2px;
+	margin: 0 1px 0 1px;
 	border-radius: 8px;
 	border-bottom: solid 1px #ffffff;
 	border-top: solid 1px #909090;
@@ -428,7 +422,7 @@ ul.style1 .first
 #slider .indicator ul li.active
 {
 	background: #505050;
-	border-top: solid 1px #505050;
+	border-top: solid 2.0px #505050;
 }
 
 #featured
@@ -478,10 +472,10 @@ ul.style1 .first
 	padding: 20px 0px 20px 0px;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 1.00em;
+	font-size: 1.5em;
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
-	color: #00802B;
+	color: #098A76;
 }
 
 #featured .title 
@@ -491,5 +485,5 @@ ul.style1 .first
 	border-bottom: 1px solid #D8D8D8;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2.50em;
-	color: #00802B !important;
+	color: #098A76 !important;
 }
