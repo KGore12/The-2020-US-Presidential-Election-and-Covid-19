@@ -1,1 +1,122 @@
-<html><body><p>Hello World</p></body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Refreshen 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130217
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.slidertron-1.1.js"></script>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Archivo+Narrow:400,700" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">The 2020 US Presidential Election and Covid-19</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="first active"><a href="#" accesskey="1" title="">Home</a></li>
+				<li><a href="map.html" accesskey="2" title="">Maps & Graphs</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="banner">
+	<div id="slider">
+		<div class="viewer">
+			<div class="reel">
+				<div class="slide">
+					<iframe width="1000" height="500" src="https://www.youtube.com/embed/UJMfNom_Z48" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="slide">
+					<a class="link" href="https://apnews.com/article/public-health-new-york-new-york-city-coronavirus-pandemic-a203294d021661100b57ddaeaa08bda9">Full story ...</a> <img src="images/One-day_US_deaths_AP_Headline.jpg" width="1000" height="450" alt="Image of US Covid-19 deaths headline." /> </div>
+				<div class="slide">
+					<iframe width="1000" height="500" src="https://www.youtube.com/embed/3zA5hyC0Tpo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="slide">
+					<a class="link" href="https://thehill.com/homenews/media/518879-cnns-jake-tapper-calls-debate-a-hot-mess-inside-a-dumpster-fire-inside-a-train">Full story ...</a> <img src="images/Jake_Tapper_Quote.jpg" width="1000" height="450" alt="Image of US Covid-19 deaths headline." /></div>
+
+				<div class="slide">
+					<iframe width="1000" height="500" src="https://www.youtube.com/embed/rD7cbBB9YEU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="indicator">
+			<ul>
+				<li class="active">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$('#slider').slidertron({
+			viewerSelector: '.viewer',
+			reelSelector: '.viewer .reel',
+			slidesSelector: '.viewer .reel .slide',
+			advanceDelay: 5000,
+			speed: 'slow',
+			navPreviousSelector: '.previous-button',
+			navNextSelector: '.next-button',
+			indicatorSelector: '.indicator ul li',
+			slideLinkSelector: '.link'
+		});
+	</script> 
+</div>
+<div id="wrapper">
+	<div id="page" class="container">
+		<div id="content"> 
+			<h2>The Story</h2>
+			<p>The data used comes from Politico via Kaggle. In these current times, our team chose to focus on if there was a relationship between two major occurrences in 2020: an unprecedented presidential election and a worldwide pandemic.</p>
+			<br>
+			<p>This comprehensive dataset from <a href="https://www.kaggle.com/etsc9287/2020-general-election-polls" target="_blank" rel="nofollow"><strong>Kaggle</strong></a> was provided as csv files. Some of the major datapoints obtained were votes, demographic data, and Covid-19 numbers. We set out on a path to use data analytics to further visualize this data on these pages.</p>
+			<br>
+			<p>By clicking on the <a href="maps.html" rel="nofollow"><strong>Maps & Graphs</strong></a> link, you will see the visualize the relationships between these key factors. Even though there is no definitive relationship, we can definitely see some trends with the data.</p>
+			<br>
+			<p>Notes About the Data: Due to changes in data collection and reporting for both the 2020 presidential election and COVID-19, this is only a "snapshot" of the data sources up to November 1st, 2020 for COVID-19 data and November 10th, 2020 for the election data.</p>
+				
+		</div>
+
+	</div>
+	<div id="featured" class="container">
+		<h2 class="title">The Team</h2>
+		<div id="fbox1"> <img src="images/Brendan_Rhoads.jpg" width="235" height="235" alt="Photo of group member." />
+			<h2><a href="https://github.com/BRhoads1155" target="_blank"><strong>Brendan Rhoads</strong></a></h2>
+
+		</div>
+		<div id="fbox2"> <img src="images/Evan_Kamis.jpg" width="235" height="235" alt="Photo of group member." />
+			<h2><a href="https://github.com/EvanK215/" target="_blank"><strong>Evan Kamis</strong></a></h2>
+
+		</div>
+		<div id="fbox3"> <img src="images/Roshini_Jayantha.jpg" width="235" height="235" alt="Photo of group member." />
+			<h2><a href="https://github.com/RoshiniGau/" target="_blank"><strong>Roshini Jayantha</strong></a></h2>
+		</div>
+		<div id="fbox4"> <img src="images/Kimberly_Gore.jpg" width="235" height="235" alt="Photo of group member." />
+			<h2><a href="https://github.com/KGore12" target="_blank"><strong>Kimberly Gore</strong></a></h2>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>&copy; Untitled. All rights reserved. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
+</div>
+</body>
+</html>
