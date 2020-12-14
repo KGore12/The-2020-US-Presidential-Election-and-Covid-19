@@ -57,16 +57,17 @@ Jupyter Notebook files of cleaned data used for testing.
 Distribution of tasks
 1.	Finding Data Source - Evan found the main source with support from the team.
 2.	Cleaning up the data - Evan and Brendan with assistance from Roshini.
-3.	Transforming the data - Brendan and Roshini
+3.	Transforming the data - Brendan 
 4.	Loading and testing the data - Brendan and Roshini
 5.  ERD - Brendan
 6.	Proposal - Kim with support from the team.
 7.  Set up landing page – Kim
 8.	Set up index.html and style.css - Kim
 9.	Set up visualizations – Roshini
-10.	PowerPoint - Kim with assistance from Roshini and Evan
-11. ReadMe - Kim with screenshots from Roshini
-12.	Set up web server - 
+10 . Implementing Chartjs - Roshini with assistance from Brendan
+11. PowerPoint - Kim with assistance from Roshini and Evan
+12. ReadMe - Kim with screenshots from Roshini
+13.	Set up web server - 
 
 Regularly touched base via Slack to ensure project is on track.
 
