@@ -8,13 +8,13 @@ import csv
   
 # Opening JSON file and loading the data 
 # into the variable data 
-with open('Raw Data/US-States1.json') as json_file: 
+with open('../CleanData/gz_2010_us_040_00_20m.json') as json_file: 
     data = json.load(json_file) 
   
 state_data = data["features"] 
   
 # now we will open a file for writing 
-data_file = open('Raw Data/state_geojson.csv', 'w') 
+data_file = open('../CleanData/state_geojson.csv', 'w') 
   
 # create the csv writer object 
 csv_writer = csv.writer(data_file) 
